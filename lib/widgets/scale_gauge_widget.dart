@@ -44,8 +44,11 @@ class _ScaleGaugeWidgetState extends State<ScaleGaugeWidget> {
     return Directionality(
       textDirection: TextDirection.rtl,
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        // mainAxisAlignment: MainAxisAlignment.center,
+
         children: [
+          
+          SizedBox(height: 150),
           // نمایش مقدار انتخاب‌شده با عدد فارسی
           Text(
             'مقدار انتخابی شما:',
