@@ -1,5 +1,3 @@
-// ignore_for_file: deprecated_member_use
-
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:vector_math/vector_math.dart' as vector;
@@ -216,6 +214,7 @@ class IconCloudPainter extends CustomPainter {
             fontSize: 24 * item.scale,
             fontFamily: item.icon.fontFamily,
             package: item.icon.fontPackage,
+            // ignore: deprecated_member_use
             color: item.color.withOpacity(opacity),
           ),
         ),

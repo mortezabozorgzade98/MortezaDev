@@ -176,6 +176,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.12.1"
+  stepper_touch:
+    dependency: "direct main"
+    description:
+      name: stepper_touch
+      sha256: "6a297275c1bdc458580ac91ad5c3c3885d37057355ee936bbc2d401695c464fe"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   stream_channel:
     dependency: transitive
     description:
